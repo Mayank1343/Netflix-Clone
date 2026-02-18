@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.mainNetflixContainer{
+   /* border: 2px solid red;*/
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+
+
+
+.upperNavBarSection{
+  /*  border: 1px solid blue;*/
+    display: flex;
+    height: 50%;
+}
+
+.netflixlogo{
+    width: 12%;
+    margin-right: 5px;
+}
+
+.upperNavBarLeftSection{
+   /* border: 2px solid red;*/
+    width: 50%;
+}
+
+.upperNavBarRightSection{
+    /*border: 2px solid green;*/
+    width: 50%;
+}
+
+.navBarButtonContainer{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.LanguageButton{
+    display: flex;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.75rem;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+.signInButtonContainer{
+    
+    background-color: #ffffff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;  
+    width: 75px;
+    text-align: center;
+    margin-left: 11px;
+    margin-right: 40px;
+}
+
+.signIn{
+    font-size: 0.75rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.LanguageButton p{
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+.lowerNavBarSection{
+/*border: 2px solid red;*/
+height: 50%;
+color: #ffffff;
+display: flex;
+justify-content: center;
+}
+
+.menuList{
+    border: 2px solid green;
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    background: #000000be;
+    box-shadow: 2px 3px 14px rgba(0,0,0,0.329) ;
+    height: 7vh;
+}
+
+.menuList li{
+  /*  border: 2px solid red;*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bannerSection{
+   /* border: 2px solid red;*/
+    height: 70vh;
+    background-image: url(./bannerImage.jpg);
+    background-size: 100%;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.overlay{
+height: 100%;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7) black);
+border-radius: 20px;
+
+}
+
+.bannerContainer{
+     /*border: 2px solid red;*/
+     height: 80%;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer h2{
+    font-size: 4rem;
+  /*  border: 2px solid green;*/
+    width: 50%;
+    text-align: center;
+}
+
+.bannerContainer h4{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.bannerContainer p{
+    font-size: 1rem;
+    margin: 20px;
+}
+
+.inputContainer{
+  /*  border: 2px solid red;*/
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.emailInputBox{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: 1px soild white;
+    outline: none;
+    width: 60%;
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    font-size: 1rem;
+}
+
+.emailInputBox::placeholder{
+  color: white;  
+}
+
+.getStartedButton{
+    width: 30%;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700 ;
+}
+
+.carouselSection{
+   /* border: 2px solid green;*/
+    color: white;
+    
+}
+
+.carouselContainer{
+/*border: 2px solid red;*/
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+
+.carouselSection h2{
+    border: 2px solid red;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.carouselNumber{
+
+}
+
+.carouselCard{
+   border: 2px solid yellow;
+    width: 18%;
+    height: 40vh;
+    border-radius: 20px;
+    position: relative;
+}
+
+.carouselImage{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.carouselImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.plansContainer{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+
+.planSection h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.plancard{
+    border: 2px solid blue;
+    height: 40vh;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+.plancard h2{
+    margin-left: 0;
+}
