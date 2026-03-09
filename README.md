@@ -40,8 +40,11 @@ LeetMetric is a simple web application that allows users to view and analyze the
 LeetMetric/
 │
 ├── index.html # Main UI structure
+
 ├── style.css # Styling and layout
+
 ├── script.js # API calls and logic
+
 └── README.md # Project documentation
 
 
