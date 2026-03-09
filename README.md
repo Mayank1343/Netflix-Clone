@@ -37,7 +37,8 @@ LeetMetric is a simple web application that allows users to view and analyze the
 ---
 
 ## 📂 Project Structure
-LeetMetric/
+LeetMetric
+
 │
 ├── index.html # Main UI structure
 
